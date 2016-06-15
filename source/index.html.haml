@@ -1,0 +1,31 @@
+%header
+  %h1 Esztergált faipari termékek nagy darabszámú sorozatgyártása
+  %p
+    Faesztergálás nagy darabszámban
+    Cégünk foglalkozási területei:
+    Nagy darabszámú faesztergályos termékek gyártása: fagolyók, tégelyek, fűszeres kanalak, gombok, korlátoszlopok
+    Fából készült apró faipari termékek, alkatrészek sorozatgyártása
+    Asztali lámpák, álló lámpák, szobortartó állványok tervezése és kivitelezése
+    Antik hangulatú három bekezdésű áttört csavartoszlop, bármely egyedi megoldással
+    Egyedi tervezésű belső lépcsők kivitelezése
+    Lakásbelsők, galériák a megrendelő elképzelése alapján
+  %p
+    Faesztergályos munkák és termékek. Nagy darabszámú faesztergályos és más faipari termékek sorozatgyártása.
+  %div{:itemscope => "", :itemtype => "http://schema.org/LocalBusiness"}
+    %h3 Árajánlat | Információ
+    %a.button.special.icon.fa-phone{:itemprop => "telephone", :href => "tel:#{data.contact.phone_href}"}
+      = data.contact.phone_text
+    %a.button.icon.fa-envelope{:itemprop => "email", :href => "mailto:#{data.contact.email}"}
+      = data.contact.email
+    %span{:itemprop => "name", :style => "display: none;"}
+      = data.contact.name
+
+%section.tiles
+  - sitemap.resources.select{|page| page.data.tags && page.data.tags.include?('page')}.sort_by{|n| n.data.sort_weight || 100}.each do |page|
+    %article.style1
+      %span.image
+        %img{:alt => "#{page.data.thumbnail_alt_text}", :src => "#{page.data.thumbnail}"}/
+      %a{:href => "#{page.url}"}
+        %h2= page.data.title
+        .content
+          %p= page.data.summary

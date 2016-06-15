@@ -16,7 +16,90 @@
     /[if lte IE 8]
       = stylesheet_link_tag 'ie8'
   %body
-    = yield
+    / Wrapper
+    #wrapper
+
+      / Header
+      %header#header
+        .inner
+          / Logo
+          %a.logo{:href => "index.html"}
+            %span.symbol
+              %img{:alt => "", :src => "/images/logo.svg"}/
+            %span.title= data.site.logotitle
+          / Nav
+          %nav
+            %ul
+              %li
+                %a{:href => "#menu"} Menu
+
+      / Menu
+      %nav#menu
+        %h2 Menu
+        %ul
+          %li
+            %a{:href => "/"} Home
+          %li
+            %a{:href => "generic.html"} Ipsum veroeros
+          %li
+            %a{:href => "generic.html"} Tempus etiam
+          %li
+            %a{:href => "generic.html"} Consequat dolor
+          %li
+            %a{:href => "elements.html"} Elements
+
+      / Main
+      #main
+        .inner
+          = yield
+
+      / Footer
+      %footer#footer
+        .inner
+          %section
+            %h2 Get in touch
+            %form{:action => "#", :method => "post"}
+              .field.half.first
+                %input#name{:name => "name", :placeholder => "Name", :type => "text"}/
+              .field.half
+                %input#email{:name => "email", :placeholder => "Email", :type => "email"}/
+              .field
+                %textarea#message{:name => "message", :placeholder => "Message"}
+              %ul.actions
+                %li
+                  %input.special{:type => "submit", :value => "Send"}/
+          %section
+            %h2 Follow
+            %ul.icons
+              %li
+                %a.icon.style2.fa-twitter{:href => "#"}
+                  %span.label Twitter
+              %li
+                %a.icon.style2.fa-facebook{:href => "#"}
+                  %span.label Facebook
+              %li
+                %a.icon.style2.fa-instagram{:href => "#"}
+                  %span.label Instagram
+              %li
+                %a.icon.style2.fa-dribbble{:href => "#"}
+                  %span.label Dribbble
+              %li
+                %a.icon.style2.fa-github{:href => "#"}
+                  %span.label GitHub
+              %li
+                %a.icon.style2.fa-500px{:href => "#"}
+                  %span.label 500px
+              %li
+                %a.icon.style2.fa-phone{:href => "#"}
+                  %span.label Phone
+              %li
+                %a.icon.style2.fa-envelope-o{:href => "#"}
+                  %span.label Email
+          %ul.copyright
+            %li © Untitled. All rights reserved
+            %li
+              Design:
+              %a{:href => "http://html5up.net"} HTML5 UP
 
     = javascript_include_tag 'jquery.min.js'
     = javascript_include_tag 'skel.min.js'
