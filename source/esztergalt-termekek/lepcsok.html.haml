@@ -1,0 +1,16 @@
+---
+title: Lépcsők
+tags: [ page, ]
+thumbnail: "/images/pic01.jpg"
+thumbnail_alt_text: "Lépcsők"
+summary: "Esztergált lépcső elemek: lépcsőkorlát"
+sort_weight: 2
+---
+
+%p
+  Vannak
+  %b lépcsők.
+
+%ul
+  - data.termekek.lepcsok.each do |item|
+    %li= item.title

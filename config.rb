@@ -43,7 +43,6 @@ configure :build do
   # activate :minify_javascript
 end
 
-activate :i18n,
-         :langs => [:hu, :en],
-         :mount_at_root => :hu
+activate :directory_indexes
+
 

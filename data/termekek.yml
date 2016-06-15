@@ -1,0 +1,134 @@
+asztalok:
+
+  - title: "Egyedi asztal"
+    image: "asztalok/egyedi_asztal_24.jpg"
+
+lampak:
+
+  - title: "Állólámpa"
+    image: "lampak/allolampa_25.jpg"
+
+  - title: "Asztali lámpa"
+    image: "lampak/asztali_lampa_17.jpg"
+
+lepcsok:
+
+  - title: "Lépcső"
+    image: "lepcsok/lepcso_10.jpg"
+
+  - title: "Lépcső"
+    image: "lepcsok/lepcso_20.jpg"
+
+  - title: "Lépcső"
+    image: "lepcsok/lepcso_21.jpg"
+
+  - title: "Lépcső"
+    image: "lepcsok/lepcso_22.jpg"
+
+  - title: "Lépcső"
+    image: "lepcsok/lepcso_5.jpg"
+
+  - title: "Lépcső"
+    image: "lepcsok/lepcso_9.jpg"
+
+  - title: "Lépcső oszlop"
+    image: "lepcsok/lepcso_oszlop_6.jpg"
+
+  - title: "Lépcső oszlop"
+    image: "lepcsok/lepcso_oszlop_7.jpg"
+
+  - title: "Lépcső oszlop"
+    image: "lepcsok/lepcso_oszlop_8.jpg"
+
+  - title: "Tetőtéri lépcső"
+    image: "lepcsok/tetoteri_lepcso_14.jpg"
+
+tomegcikkek:
+
+  - title: "Citrom"
+    image: "tomegcikkek/citrom_33.jpg"
+
+  - title: "Csiga"
+    image: "tomegcikkek/csiga_32.jpg"
+
+  - title: "Dereje szaggató"
+    image: "tomegcikkek/dereje_szaggato_31.jpg"
+
+  - title: "Golyó"
+    image: "tomegcikkek/golyo_30.jpg"
+
+  - title: "Gyűrű"
+    image: "tomegcikkek/gyuru_29.jpg"
+
+  - title: "Hosszú fűszeres kanalak"
+    image: "tomegcikkek/hosszu_fuszeres_kanalak_28.jpg"
+
+  - title: "Makk"
+    image: "tomegcikkek/makk_27.jpg"
+
+  - title: "Rövid fűszeres kanalak"
+    image: "tomegcikkek/rovid_fuszeres_kanalak_26.jpg"
+
+labak:
+
+  - title: "Lépcső oszlop"
+    image: "lepcsok/lepcso_oszlop_8.jpg"
+
+  - title: "Egyedi asztal"
+    image: "asztalok/egyedi_asztal_24.jpg"
+
+fajatek:
+
+  - title: "Lépcső oszlop"
+    image: "lepcsok/lepcso_oszlop_8.jpg"
+
+  - title: "Egyedi asztal"
+    image: "asztalok/egyedi_asztal_24.jpg"
+
+fakanal:
+
+  - title: "Rövid fűszeres kanalak"
+    image: "tomegcikkek/rovid_fuszeres_kanalak_26.jpg"
+
+  - title: "Hosszú fűszeres kanalak"
+    image: "tomegcikkek/hosszu_fuszeres_kanalak_28.jpg"
+
+beepitett:
+
+  - title: "Bárpult"
+    image: "bemutato/barpult_4.jpg"
+
+  - title: "Beépített szekrény elhúzható ajtóval"
+    image: "bemutato/beepitett_szekreny_elhuzhato_ajtoval_16.jpg"
+
+  - title: "Bútor szekrény"
+    image: "bemutato/butor_szekreny_1.jpg"
+
+  - title: "Bútor szekrény"
+    image: "bemutato/butor_szekreny_2.jpg"
+
+  - title: "Bútor szekrény"
+    image: "bemutato/butor_szekreny_3.jpg"
+
+  - title: "Szobortartó"
+    image: "bemutato/szobortarto_18.jpg"
+
+  - title: "Tetőtér"
+    image: "bemutato/tetoter_11.jpg"
+
+  - title: "Tetőtér"
+    image: "bemutato/tetoter_12.jpg"
+
+  - title: "Tetőtér"
+    image: "bemutato/tetoter_13.jpg"
+
+  - title: "Tetőtér"
+    image: "bemutato/tetoter_15.jpg"
+
+konyhabutor_szobabutor:
+
+  - title: "Konyhabelső"
+    image: "bemutato/konyhabelso_23.jpg"
+
+  - title: "Szobabelső"
+    image: "bemutato/szobabelso_19.jpg"

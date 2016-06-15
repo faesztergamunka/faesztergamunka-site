@@ -1,0 +1,12 @@
+---
+title: Fajáték alkatrészek
+tags: [ page, ]
+thumbnail: "/images/pic01.jpg"
+thumbnail_alt_text: "Lámpák"
+summary: "Lámpák"
+sort_weight: 4
+---
+
+%ul
+  - data.termekek.lampak.each do |item|
+    %li= item.title
