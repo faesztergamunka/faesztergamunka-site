@@ -56,6 +56,7 @@
 					opacity: 0.8;
 				}
 
+        /*
 				&:after {
 					@include vendor('pointer-events', 'none');
 					@include vendor('transition', 'opacity #{$duration} #{$ease}');
@@ -73,6 +74,7 @@
 					opacity: 0.25;
 					z-index: 2;
 				}
+        */
 			}
 
 			> a {
@@ -127,9 +129,6 @@
 			}
 
 			&.style1 {
-				> .image:before {
-					background-color: _palette(accent1);
-				}
 			}
 
 			&.style2 {
