@@ -1,0 +1,15 @@
+---
+title: Tömegcikkek
+tags: [ page, ]
+thumbnail: "/images/tomegcikkek.jpg"
+thumbnail_alt_text: Tömegcikkek
+summary: Esztergált Tömegcikkek
+sort_weight: 5
+---
+
+%ul
+  - data.termekek.tomegcikkek.each do |item|
+    %li
+      %h4= item.title
+      %p= item.description
+      %p= item.image

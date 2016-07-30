@@ -1,0 +1,15 @@
+---
+title: Szobabútor, Konyhabútor
+tags: [ page, ]
+thumbnail: "/images/szobabutor.jpg"
+thumbnail_alt_text: Szobabútor, Konyhabútor
+summary: Szobabútor, Konyhabútor
+sort_weight: 2
+---
+
+%ul
+  - data.termekek.konyhabutor.each do |item|
+    %li
+      %h4= item.title
+      %p= item.description
+      %p= item.image

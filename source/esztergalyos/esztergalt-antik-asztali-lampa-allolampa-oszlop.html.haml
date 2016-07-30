@@ -1,0 +1,15 @@
+---
+title: Lámpák
+tags: [ page, ]
+thumbnail: "/images/lampak.jpg"
+thumbnail_alt_text: Antik asztali lámpa, állólámpa
+summary: Antik asztali lámpa, állólámpa
+sort_weight: 4
+---
+
+%ul
+  - data.termekek.lampak.each do |item|
+    %li
+      %h4= item.title
+      %p= item.description
+      %p= item.image

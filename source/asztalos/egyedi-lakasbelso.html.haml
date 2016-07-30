@@ -1,0 +1,15 @@
+---
+title: Egyedi Lakásbelső
+tags: [ page, ]
+thumbnail: "/images/lakasbelso.jpg"
+thumbnail_alt_text: Egyedi Lakásbelső
+summary: Egyedi Lakásbelső
+sort_weight: 4
+---
+
+%ul
+  - data.termekek.lakasbelso.each do |item|
+    %li
+      %h4= item.title
+      %p= item.description
+      %p= item.image

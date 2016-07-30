@@ -1,0 +1,15 @@
+---
+title: Fa Asztallábak és Bútorlábak
+tags: [ page, ]
+thumbnail: "/images/asztallabak.jpg"
+thumbnail_alt_text: Fa Asztallábak és Bútorlábak
+summary: Fa Asztallábak és Bútorlábak
+sort_weight: 3
+---
+
+%ul
+  - data.termekek.asztallabak.each do |item|
+    %li
+      %h4= item.title
+      %p= item.description
+      %p= item.image

@@ -1,134 +1,332 @@
-asztalok:
+asztallabak:
 
-  - title: "Egyedi asztal"
-    image: "asztalok/egyedi_asztal_24.jpg"
+  - title: "Lépcső oszlop"
+    description: "Egyedi kivitelezésú falépcső, három bekezdésű áttört oszloppal."
+    image: "/images/termekek/lepcsok/lepcso-oszlop-8.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-oszlop-8_small.jpg"
 
-lampak:
+  - title: "Asztallábak"
+    description: "Egyedi kivitelezésú esztergált asztallábak."
+    image: "/images/termekek/asztalok/asztallabak.jpg"
+    image_small: "/images/termekek/asztalok/asztallabak_small.jpg"
 
-  - title: "Állólámpa"
-    image: "lampak/allolampa_25.jpg"
+  - title: "Csavart oszlop"
+    description: "Nagy átmérőjű csavart oszlop, jobbos és balos menetemelkedéssel."
+    image: "/images/termekek/oszlopok/csavart-oszlop.jpg"
+    image_small: "/images/termekek/oszlopok/csavart-oszlop_small.jpg"
 
-  - title: "Asztali lámpa"
-    image: "lampak/asztali_lampa_17.jpg"
+  - title: "Templombelső csavart korlátoszlop"
+    description: "Nagy átmérőjű csavart oszlopok templombelső korlátjának részeként."
+    image: "/images/termekek/bemutato/templom-belso-korlat-oszlop-1.jpg"
+    image_small: "/images/termekek/bemutato/templom-belso-korlat-oszlop-1_small.jpg"
+
+  - title: "Templombelső csavart korlátoszlop"
+    description: "Nagy átmérőjű csavart oszlopok templombelső korlátjának részeként."
+    image: "/images/termekek/bemutato/templom-belso-korlat-oszlop-2.jpg"
+    image_small: "/images/termekek/bemutato/templom-belso-korlat-oszlop-2_small.jpg"
 
 lepcsok:
 
   - title: "Lépcső"
-    image: "lepcsok/lepcso_10.jpg"
+    description: "Egyedi kivitelezésú falépcső, fillung betétes falburkolattal."
+    image: "/images/termekek/lepcsok/lepcso-10.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-10_small.jpg"
 
   - title: "Lépcső"
-    image: "lepcsok/lepcso_20.jpg"
+    description: "Lépcső bemutató darab, három bekezdésű áttört oszlopokkal."
+    image: "/images/termekek/lepcsok/lepcso-20.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-20_small.jpg"
 
   - title: "Lépcső"
-    image: "lepcsok/lepcso_21.jpg"
+    description: "Lépcső bemutató darab, három bekezdésű áttört oszlopokkal."
+    image: "/images/termekek/lepcsok/lepcso-21.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-21_small.jpg"
 
   - title: "Lépcső"
-    image: "lepcsok/lepcso_22.jpg"
+    description: "Egyedi kivitelezésú falépcső lakótérben."
+    image: "/images/termekek/lepcsok/lepcso-22.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-22_small.jpg"
 
   - title: "Lépcső"
-    image: "lepcsok/lepcso_5.jpg"
+    description: "Egyedi kivitelezésú falépcső, három bekezdésű áttört oszloppal."
+    image: "/images/termekek/lepcsok/lepcso-5.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-5_small.jpg"
 
   - title: "Lépcső"
-    image: "lepcsok/lepcso_9.jpg"
+    description: "Egyedi kivitelezésú falépcső, három bekezdésű áttört oszloppal."
+    image: "/images/termekek/lepcsok/lepcso-9.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-9_small.jpg"
 
   - title: "Lépcső oszlop"
-    image: "lepcsok/lepcso_oszlop_6.jpg"
+    description: "Falépcső korlátoszlop, három bekezdésű áttört marással."
+    image: "/images/termekek/lepcsok/lepcso-oszlop-6.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-oszlop-6_small.jpg"
 
   - title: "Lépcső oszlop"
-    image: "lepcsok/lepcso_oszlop_7.jpg"
+    description: "Falépcső korlátoszlop, három bekezdésű áttört marással."
+    image: "/images/termekek/lepcsok/lepcso-oszlop-7.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-oszlop-7_small.jpg"
 
   - title: "Lépcső oszlop"
-    image: "lepcsok/lepcso_oszlop_8.jpg"
+    description: "Falépcső korlátoszlop, három bekezdésű áttört marással."
+    image: "/images/termekek/lepcsok/lepcso-oszlop-8.jpg"
+    image_small: "/images/termekek/lepcsok/lepcso-oszlop-8_small.jpg"
 
   - title: "Tetőtéri lépcső"
-    image: "lepcsok/tetoteri_lepcso_14.jpg"
+    description: "Lakótéri falépcső fillung betétes falburkolattal."
+    image: "/images/termekek/lepcsok/tetoteri-lepcso-14.jpg"
+    image_small: "/images/termekek/lepcsok/tetoteri-lepcso-14_small.jpg"
+
+szekreny:
+
+  - title: "Bárpult"
+    description: "Apácarács és fillung betétes díszítésű bárpult lakásbelső részeként."
+    image: "/images/termekek/bemutato/barpult-4.jpg"
+    image_small: "/images/termekek/bemutato/barpult-4_small.jpg"
+
+  - title: "Bútor szekrény"
+    description: "Beépített bútorszekrény esztergált oszlopokkal és üvegajtókkal."
+    image: "/images/termekek/bemutato/butor-szekreny-1.jpg"
+    image_small: "/images/termekek/bemutato/butor-szekreny-1_small.jpg"
+
+  - title: "Bútor szekrény"
+    description: "Beépített bútorszekrény üvegajtókkal."
+    image: "/images/termekek/bemutato/butor-szekreny-2.jpg"
+    image_small: "/images/termekek/bemutato/butor-szekreny-2_small.jpg"
+
+  - title: "Bútor szekrény"
+    description: "Beépített bútorszekrény üvegajtókkal."
+    image: "/images/termekek/bemutato/butor-szekreny-3.jpg"
+    image_small: "/images/termekek/bemutato/butor-szekreny-3_small.jpg"
+
+lakasbelso:
+
+  - title: "Beépített szekrény elhúzható ajtóval"
+    description: "Beépített gardrób szekrény perforált betétes tolóajtókkal."
+    image: "/images/termekek/bemutato/beepitett-szekreny-elhuzhato-ajtoval-16.jpg"
+    image_small: "/images/termekek/bemutato/beepitett-szekreny-elhuzhato-ajtoval-16_small.jpg"
+
+  - title: "Szobortartó"
+    description: "Szobortartó állvány."
+    image: "/images/termekek/bemutato/szobortarto-18.jpg"
+    image_small: "/images/termekek/bemutato/szobortarto-18_small.jpg"
+
+  - title: "Tetőtér"
+    description: "Tetőtéri lépcsőfeljáró beépített korlátszekrény."
+    image: "/images/termekek/bemutato/tetoter-11.jpg"
+    image_small: "/images/termekek/bemutato/tetoter-11_small.jpg"
+
+  - title: "Tetőtér"
+    description: "Tetőtéri lépcsőfeljáró beépített korlátszekrény."
+    image: "/images/termekek/bemutato/tetoter-12.jpg"
+    image_small: "/images/termekek/bemutato/tetoter-12_small.jpg"
+
+  - title: "Tetőtér"
+    description: "Tetőtéri lépcsőfeljáró beépített korlátszekrény."
+    image: "/images/termekek/bemutato/tetoter-13.jpg"
+    image_small: "/images/termekek/bemutato/tetoter-13_small.jpg"
+
+  - title: "Tetőtér"
+    description: "Tetőtéri lépcsőfeljáró beépített korlátszekrény."
+    image: "/images/termekek/bemutato/tetoter-15.jpg"
+    image_small: "/images/termekek/bemutato/tetoter-15_small.jpg"
+
+konyabutor:
+
+  - title: "Szobabelső"
+    description: "Szobabelső csavart oszlopokkal."
+    image: "/images/termekek/bemutato/szobabelso-19.jpg"
+    image_small: "/images/termekek/bemutato/szobabelso-19_small.jpg"
+
+  - title: "Konyhabelső"
+    description: "Beépített konyhabútor."
+    image: "/images/termekek/bemutato/konyhabelso-23.jpg"
+    image_small: "/images/termekek/bemutato/konyhabelso-23_small.jpg"
+
+kanal:
+
+  - title: "Rövid fűszeres kanalak"
+    description: "Esztergált rövid nyelű fűszeres kanalak."
+    image: "/images/termekek/tomegcikkek/rovid-fuszeres-kanalak-26.jpg"
+    image_small: "/images/termekek/tomegcikkek/rovid-fuszeres-kanalak-26_small.jpg"
+
+  - title: "Hosszú fűszeres kanalak"
+    description: "Esztergált hosszú nyelű fűszeres kanalak."
+    image: "/images/termekek/tomegcikkek/hosszu-fuszeres-kanalak-28.jpg"
+    image_small: "/images/termekek/tomegcikkek/hosszu-fuszeres-kanalak-28_small.jpg"
+
+lampak:
+
+  - title: "Állólámpa"
+    description: "Állólámpa áttört csavart oszloppal és Tiffany üveges búrával."
+    image: "/images/termekek/lampak/allolampa-25.jpg"
+    image_small: "/images/termekek/lampak/allolampa-25_small.jpg"
+
+  - title: "Asztali lámpa"
+    description: "Asztali lámpa áttört csavart oszloppal és Tiffany üveges búrával."
+    image: "/images/termekek/lampak/asztali-lampa-17.jpg"
+    image_small: "/images/termekek/lampak/asztali-lampa-17_small.jpg"
+
+fajatek:
+
+  - title: "Csiga"
+    description: "Esztergált csiga fajáték"
+    image: "/images/termekek/tomegcikkek/csiga-32.jpg"
+    image_small: "/images/termekek/tomegcikkek/csiga-32_small.jpg"
+
+  - title: "Fajáték"
+    description: "Esztergált fagolyókból álló teknős fajáték"
+    image: "/images/termekek/tomegcikkek/fajatek-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/fajatek-1_small.jpg"
+
+  - title: "Pörgettyű"
+    description: "Esztergált pörgettyű fajáték"
+    image: "/images/termekek/tomegcikkek/porgettyu-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/porgettyu-1_small.jpg"
+
+  - title: "Síp"
+    description: "Esztergált fából készült síp"
+    image: "/images/termekek/tomegcikkek/sip-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/sip-1_small.jpg"
+
+  - title: "Búgó-csiga"
+    description: "Búgó-csiga fajáték"
+    image: "/images/termekek/tomegcikkek/bugo-csiga-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/bugo-csiga-1_small.jpg"
+
+  - title: "Búgó-csiga"
+    description: "Búgó-csiga fajáték"
+    image: "/images/termekek/tomegcikkek/bugo-csiga-2.jpg"
+    image_small: "/images/termekek/tomegcikkek/bugo-csiga-2_small.jpg"
+
+  - title: "Figurás üvegdugó"
+    description: "Üvegdugó részeg kacsa figurával"
+    image: "/images/termekek/tomegcikkek/figuras-uvegdugo-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/figuras-uvegdugo-1_small.jpg"
+
+  - title: "Figurás üvegdugó"
+    description: "Üvegdugó részeg kacsa figurával"
+    image: "/images/termekek/tomegcikkek/figuras-uvegdugo-2.jpg"
+    image_small: "/images/termekek/tomegcikkek/figuras-uvegdugo-2_small.jpg"
+
+  - title: "Nunchaku"
+    description: "Esztergált nunchaku sporteszköz"
+    image: "/images/termekek/tomegcikkek/nunchaku-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/nunchaku-1_small.jpg"
+
+  - title: "Játék bábu"
+    description: "Esztergált fajáték bábu"
+    image: "/images/termekek/tomegcikkek/jatek-babu-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/jatek-babu-1_small.jpg"
 
 tomegcikkek:
 
   - title: "Citrom"
-    image: "tomegcikkek/citrom_33.jpg"
-
-  - title: "Csiga"
-    image: "tomegcikkek/csiga_32.jpg"
-
-  - title: "Dereje szaggató"
-    image: "tomegcikkek/dereje_szaggato_31.jpg"
-
-  - title: "Golyó"
-    image: "tomegcikkek/golyo_30.jpg"
-
-  - title: "Gyűrű"
-    image: "tomegcikkek/gyuru_29.jpg"
-
-  - title: "Hosszú fűszeres kanalak"
-    image: "tomegcikkek/hosszu_fuszeres_kanalak_28.jpg"
+    description: "Esztergált fagyümölcs"
+    image: "/images/termekek/tomegcikkek/citrom-33.jpg"
+    image_small: "/images/termekek/tomegcikkek/citrom-33_small.jpg"
 
   - title: "Makk"
-    image: "tomegcikkek/makk_27.jpg"
+    description: "Esztergált fagyümölcs"
+    image: "/images/termekek/tomegcikkek/makk-27.jpg"
+    image_small: "/images/termekek/tomegcikkek/makk-27_small.jpg"
 
-  - title: "Rövid fűszeres kanalak"
-    image: "tomegcikkek/rovid_fuszeres_kanalak_26.jpg"
+  - title: "Csiga"
+    description: "Esztergált csiga fajáték"
+    image: "/images/termekek/tomegcikkek/csiga-32.jpg"
+    image_small: "/images/termekek/tomegcikkek/csiga-32_small.jpg"
 
-labak:
+  - title: "Dereje szaggató"
+    description: "Esztergált konyhai dereje szaggató"
+    image: "/images/termekek/tomegcikkek/dereje-szaggato-31.jpg"
+    image_small: "/images/termekek/tomegcikkek/dereje-szaggato-31_small.jpg"
 
-  - title: "Lépcső oszlop"
-    image: "lepcsok/lepcso_oszlop_8.jpg"
+  - title: "Golyó"
+    description: "Esztergált fagolyó átmenő furattal"
+    image: "/images/termekek/tomegcikkek/golyo-30.jpg"
+    image_small: "/images/termekek/tomegcikkek/golyo-30_small.jpg"
 
-  - title: "Egyedi asztal"
-    image: "asztalok/egyedi_asztal_24.jpg"
-
-fajatek:
-
-  - title: "Lépcső oszlop"
-    image: "lepcsok/lepcso_oszlop_8.jpg"
-
-  - title: "Egyedi asztal"
-    image: "asztalok/egyedi_asztal_24.jpg"
-
-fakanal:
-
-  - title: "Rövid fűszeres kanalak"
-    image: "tomegcikkek/rovid_fuszeres_kanalak_26.jpg"
+  - title: "Gyűrű"
+    description: "Esztergált szalvéta gyűrű"
+    image: "/images/termekek/tomegcikkek/gyuru-29.jpg"
+    image_small: "/images/termekek/tomegcikkek/gyuru-29_small.jpg"
 
   - title: "Hosszú fűszeres kanalak"
-    image: "tomegcikkek/hosszu_fuszeres_kanalak_28.jpg"
+    description: "Esztergált hosszú nyelű fűszeres kanalak."
+    image: "/images/termekek/tomegcikkek/hosszu-fuszeres-kanalak-28.jpg"
+    image_small: "/images/termekek/tomegcikkek/hosszu-fuszeres-kanalak-28_small.jpg"
 
-beepitett:
+  - title: "Rövid fűszeres kanalak"
+    description: "Esztergált rövid nyelű fűszeres kanalak."
+    image: "/images/termekek/tomegcikkek/rovid-fuszeres-kanalak-26.jpg"
+    image_small: "/images/termekek/tomegcikkek/rovid-fuszeres-kanalak-26_small.jpg"
 
-  - title: "Bárpult"
-    image: "bemutato/barpult_4.jpg"
+  - title: "Mézcsurgató"
+    description: "Esztergált mézcsurgató"
+    image: "/images/termekek/tomegcikkek/mezcsurgato-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/mezcsurgato-1_small.jpg"
 
-  - title: "Beépített szekrény elhúzható ajtóval"
-    image: "bemutato/beepitett_szekreny_elhuzhato_ajtoval_16.jpg"
+  - title: "Dió törő"
+    description: "Esztergált dió törő famenetes csavarral"
+    image: "/images/termekek/tomegcikkek/dio-toro-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/dio-toro-1_small.jpg"
 
-  - title: "Bútor szekrény"
-    image: "bemutato/butor_szekreny_1.jpg"
+  - title: "Dió törő"
+    description: "Esztergált dió törő famenetes csavarral"
+    image: "/images/termekek/tomegcikkek/dio-toro-2.jpg"
+    image_small: "/images/termekek/tomegcikkek/dio-toro-2_small.jpg"
 
-  - title: "Bútor szekrény"
-    image: "bemutato/butor_szekreny_2.jpg"
+  - title: "Fajáték"
+    description: "Esztergált fagolyókból álló teknős fajáték"
+    image: "/images/termekek/tomegcikkek/fajatek-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/fajatek-1_small.jpg"
 
-  - title: "Bútor szekrény"
-    image: "bemutato/butor_szekreny_3.jpg"
+  - title: "Pörgettyű"
+    description: "Esztergált pörgettyű fajáték"
+    image: "/images/termekek/tomegcikkek/porgettyu-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/porgettyu-1_small.jpg"
 
-  - title: "Szobortartó"
-    image: "bemutato/szobortarto_18.jpg"
+  - title: "Síp"
+    description: "Esztergált fából készült síp"
+    image: "/images/termekek/tomegcikkek/sip-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/sip-1_small.jpg"
 
-  - title: "Tetőtér"
-    image: "bemutato/tetoter_11.jpg"
+  - title: "Búgó-csiga"
+    description: "Búgó-csiga fajáték"
+    image: "/images/termekek/tomegcikkek/bugo-csiga-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/bugo-csiga-1_small.jpg"
 
-  - title: "Tetőtér"
-    image: "bemutato/tetoter_12.jpg"
+  - title: "Búgó-csiga"
+    description: "Búgó-csiga fajáték"
+    image: "/images/termekek/tomegcikkek/bugo-csiga-2.jpg"
+    image_small: "/images/termekek/tomegcikkek/bugo-csiga-2_small.jpg"
 
-  - title: "Tetőtér"
-    image: "bemutato/tetoter_13.jpg"
+  - title: "Figurás üvegdugó"
+    description: "Üvegdugó részeg kacsa figurával"
+    image: "/images/termekek/tomegcikkek/figuras-uvegdugo-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/figuras-uvegdugo-1_small.jpg"
 
-  - title: "Tetőtér"
-    image: "bemutato/tetoter_15.jpg"
+  - title: "Figurás üvegdugó"
+    description: "Üvegdugó részeg kacsa figurával"
+    image: "/images/termekek/tomegcikkek/figuras-uvegdugo-2.jpg"
+    image_small: "/images/termekek/tomegcikkek/figuras-uvegdugo-2_small.jpg"
 
-konyhabutor_szobabutor:
+  - title: "Fűszeres kanál"
+    description: "Esztergált kerek fejű fűszereskanál"
+    image: "/images/termekek/tomegcikkek/kerek-fuszeres-kanal.jpg"
+    image_small: "/images/termekek/tomegcikkek/kerek-fuszeres-kanal_small.jpg"
 
-  - title: "Konyhabelső"
-    image: "bemutato/konyhabelso_23.jpg"
+  - title: "Fagyűrű"
+    description: "Esztergált fagyűrű"
+    image: "/images/termekek/tomegcikkek/fagyuru-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/fagyuru-1_small.jpg"
 
-  - title: "Szobabelső"
-    image: "bemutato/szobabelso_19.jpg"
+  - title: "Nunchaku"
+    description: "Esztergált nunchaku sporteszköz"
+    image: "/images/termekek/tomegcikkek/nunchaku-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/nunchaku-1_small.jpg"
+
+  - title: "Játék bábu"
+    description: "Esztergált fajáték bábu"
+    image: "/images/termekek/tomegcikkek/jatek-babu-1.jpg"
+    image_small: "/images/termekek/tomegcikkek/jatek-babu-1_small.jpg"

@@ -1,0 +1,275 @@
+#+TITLE: Termékek
+
+(setq org-image-actual-width 300)
+
+'<,'>s/^[[][[].\/source\/\([^]]+\)[]][]] *\(.*\)\n\n\(.*\)/  - title: "\2"\n  - description: "\3"\n  - image: "\1"/g
+
+* Fa asztallábak és bútorlábak
+
+[[../source/images/termekek/lepcsok/lepcso-oszlop-8.jpg]] Lépcső oszlop
+
+Egyedi kivitelezésú falépcső, három bekezdésű áttört oszloppal.
+
+[[../source/images/termekek/asztalok/asztallabak.jpg]] Asztallábak
+
+Egyedi kivitelezésú esztergált asztallábak.
+
+[[../source/images/termekek/oszlopok/csavart-oszlop.jpg]] Csavart oszlop
+
+Nagy átmérőjű csavart oszlop, jobbos és balos menetemelkedéssel.
+
+[[../source/images/termekek/bemutato/templom-belso-korlat-oszlop-1.jpg]] Templombelső csavart korlátoszlop
+
+Nagy átmérőjű csavart oszlopok templombelső korlátjának részeként.
+
+[[../source/images/termekek/bemutato/templom-belso-korlat-oszlop-2.jpg]] Templombelső csavart korlátoszlop
+
+Nagy átmérőjű csavart oszlopok templombelső korlátjának részeként.
+
+* Lépcsők
+
+[[../source/images/termekek/lepcsok/lepcso-10.jpg]] Lépcső
+
+Egyedi kivitelezésú falépcső, fillung betétes falburkolattal.
+
+[[../source/images/termekek/lepcsok/lepcso-20.jpg]] Lépcső
+
+Lépcső bemutató darab, három bekezdésű áttört oszlopokkal.
+
+[[../source/images/termekek/lepcsok/lepcso-21.jpg]] Lépcső
+
+Lépcső bemutató darab, három bekezdésű áttört oszlopokkal.
+
+[[../source/images/termekek/lepcsok/lepcso-22.jpg]] Lépcső
+
+Egyedi kivitelezésú falépcső lakótérben.
+
+[[../source/images/termekek/lepcsok/lepcso-5.jpg]] Lépcső
+
+Egyedi kivitelezésú falépcső, három bekezdésű áttört oszloppal.
+
+[[../source/images/termekek/lepcsok/lepcso-9.jpg]] Lépcső
+
+Egyedi kivitelezésú falépcső, három bekezdésű áttört oszloppal.
+
+[[../source/images/termekek/lepcsok/lepcso-oszlop-6.jpg]] Lépcső oszlop
+
+Falépcső korlátoszlop, három bekezdésű áttört marással.
+
+[[../source/images/termekek/lepcsok/lepcso-oszlop-7.jpg]] Lépcső oszlop
+
+Falépcső korlátoszlop, három bekezdésű áttört marással.
+
+[[../source/images/termekek/lepcsok/lepcso-oszlop-8.jpg]] Lépcső oszlop
+
+Falépcső korlátoszlop, három bekezdésű áttört marással.
+
+[[../source/images/termekek/lepcsok/tetoteri-lepcso-14.jpg]] Tetőtéri lépcső
+
+Lakótéri falépcső fillung betétes falburkolattal.
+
+* Beépített szekrény
+
+[[../source/images/termekek/bemutato/barpult-4.jpg]] Bárpult
+
+Apácarács és fillung betétes díszítésű bárpult lakásbelső részeként.
+
+[[../source/images/termekek/bemutato/butor-szekreny-1.jpg]] Bútor szekrény
+
+Beépített bútorszekrény esztergált oszlopokkal és üvegajtókkal.
+
+[[../source/images/termekek/bemutato/butor-szekreny-2.jpg]] Bútor szekrény
+
+Beépített bútorszekrény üvegajtókkal.
+
+[[../source/images/termekek/bemutato/butor-szekreny-3.jpg]] Bútor szekrény
+
+Beépített bútorszekrény üvegajtókkal.
+
+* Egyedi Lakásbelső
+
+[[../source/images/termekek/bemutato/beepitett-szekreny-elhuzhato-ajtoval-16.jpg]] Beépített szekrény elhúzható ajtóval
+
+Beépített gardrób szekrény perforált betétes tolóajtókkal.
+
+[[../source/images/termekek/bemutato/szobortarto-18.jpg]] Szobortartó
+
+Szobortartó állvány.
+
+[[../source/images/termekek/bemutato/tetoter-11.jpg]] Tetőtér
+
+Tetőtéri lépcsőfeljáró beépített korlátszekrény.
+
+[[../source/images/termekek/bemutato/tetoter-12.jpg]] Tetőtér
+
+Tetőtéri lépcsőfeljáró beépített korlátszekrény.
+
+[[../source/images/termekek/bemutato/tetoter-13.jpg]] Tetőtér
+
+Tetőtéri lépcsőfeljáró beépített korlátszekrény.
+
+[[../source/images/termekek/bemutato/tetoter-15.jpg]] Tetőtér
+
+Tetőtéri lépcsőfeljáró beépített korlátszekrény.
+
+* Konyhabútor, szobabútor
+
+[[../source/images/termekek/bemutato/konyhabelso-23.jpg]] Konyhabelső
+
+Beépített konyhabútor.
+
+[[../source/images/termekek/bemutato/szobabelso-19.jpg]] Szobabelső
+
+Szobabelső csavart oszlopokkal.
+
+* Fűszeres fakanál
+
+[[../source/images/termekek/tomegcikkek/rovid-fuszeres-kanalak-26.jpg]] Rövid fűszeres kanalak
+
+Esztergált rövid nyelű fűszeres kanalak.
+
+[[../source/images/termekek/tomegcikkek/hosszu-fuszeres-kanalak-28.jpg]] Hosszú fűszeres kanalak
+
+Esztergált hosszú nyelű fűszeres kanalak.
+
+* Lámpák
+
+[[../source/images/termekek/lampak/allolampa-25.jpg]] Állólámpa
+
+Állólámpa áttört csavart oszloppal és Tiffany üveges búrával.
+
+[[../source/images/termekek/lampak/asztali-lampa-17.jpg]] Asztali lámpa
+
+Asztali lámpa áttört csavart oszloppal és Tiffany üveges búrával.
+
+* Fajáték alkatrészek
+
+[[../source/images/termekek/tomegcikkek/csiga-32.jpg]] Csiga
+
+Esztergált csiga fajáték
+
+[[../source/images/termekek/tomegcikkek/fajatek-1.jpg]] Fajáték
+
+Esztergált fagolyókból álló teknős fajáték
+
+[[../source/images/termekek/tomegcikkek/porgettyu-1.jpg]] Pörgettyű
+
+Esztergált pörgettyű fajáték
+
+[[../source/images/termekek/tomegcikkek/sip-1.jpg]] Síp
+
+Esztergált fából készült síp
+
+[[../source/images/termekek/tomegcikkek/bugo-csiga-1.jpg]] Búgó-csiga
+
+Búgó-csiga fajáték
+
+[[../source/images/termekek/tomegcikkek/bugo-csiga-2.jpg]] Búgó-csiga
+
+Búgó-csiga fajáték
+
+[[../source/images/termekek/tomegcikkek/figuras-uvegdugo-1.jpg]] Figurás üvegdugó
+
+Üvegdugó részeg kacsa figurával
+
+[[../source/images/termekek/tomegcikkek/figuras-uvegdugo-2.jpg]] Figurás üvegdugó
+
+Üvegdugó részeg kacsa figurával
+
+[[../source/images/termekek/tomegcikkek/nunchaku-1.jpg]] Nunchaku
+
+Esztergált nunchaku sporteszköz
+
+[[../source/images/termekek/tomegcikkek/jatek-babu-1.jpg]] Játék bábu
+
+Esztergált fajáték bábu
+
+* Tömegcikkek
+
+[[../source/images/termekek/tomegcikkek/citrom-33.jpg]] Citrom
+
+Esztergált fagyümölcs
+
+[[../source/images/termekek/tomegcikkek/makk-27.jpg]] Makk
+
+Esztergált fagyümölcs
+
+[[../source/images/termekek/tomegcikkek/csiga-32.jpg]] Csiga
+
+Esztergált csiga fajáték
+
+[[../source/images/termekek/tomegcikkek/dereje-szaggato-31.jpg]] Dereje szaggató
+
+Esztergált konyhai dereje szaggató
+
+[[../source/images/termekek/tomegcikkek/golyo-30.jpg]] Golyó
+
+Esztergált fagolyó átmenő furattal
+
+[[../source/images/termekek/tomegcikkek/gyuru-29.jpg]] Gyűrű
+
+Esztergált szalvéta gyűrű
+
+[[../source/images/termekek/tomegcikkek/hosszu-fuszeres-kanalak-28.jpg]] Hosszú fűszeres kanalak
+
+Esztergált hosszú nyelű fűszeres kanalak.
+
+[[../source/images/termekek/tomegcikkek/rovid-fuszeres-kanalak-26.jpg]] Rövid fűszeres kanalak
+
+Esztergált rövid nyelű fűszeres kanalak.
+
+[[../source/images/termekek/tomegcikkek/mezcsurgato-1.jpg]] Mézcsurgató
+
+Esztergált mézcsurgató
+
+[[../source/images/termekek/tomegcikkek/dio-toro-1.jpg]] Dió törő
+
+Esztergált dió törő famenetes csavarral
+
+[[../source/images/termekek/tomegcikkek/dio-toro-2.jpg]] Dió törő
+
+Esztergált dió törő famenetes csavarral
+
+[[../source/images/termekek/tomegcikkek/fajatek-1.jpg]] Fajáték
+
+Esztergált fagolyókból álló teknős fajáték
+
+[[../source/images/termekek/tomegcikkek/porgettyu-1.jpg]] Pörgettyű
+
+Esztergált pörgettyű fajáték
+
+[[../source/images/termekek/tomegcikkek/sip-1.jpg]] Síp
+
+Esztergált fából készült síp
+
+[[../source/images/termekek/tomegcikkek/bugo-csiga-1.jpg]] Búgó-csiga
+
+Búgó-csiga fajáték
+
+[[../source/images/termekek/tomegcikkek/bugo-csiga-2.jpg]] Búgó-csiga
+
+Búgó-csiga fajáték
+
+[[../source/images/termekek/tomegcikkek/figuras-uvegdugo-1.jpg]] Figurás üvegdugó
+
+Üvegdugó részeg kacsa figurával
+
+[[../source/images/termekek/tomegcikkek/figuras-uvegdugo-2.jpg]] Figurás üvegdugó
+
+Üvegdugó részeg kacsa figurával
+
+[[../source/images/termekek/tomegcikkek/kerek-fuszeres-kanal.jpg]] Fűszeres kanál
+
+Esztergált kerek fejű fűszereskanál
+
+[[../source/images/termekek/tomegcikkek/fagyuru-1.jpg]] Fagyűrű
+
+Esztergált fagyűrű
+
+[[../source/images/termekek/tomegcikkek/nunchaku-1.jpg]] Nunchaku
+
+Esztergált nunchaku sporteszköz
+
+[[../source/images/termekek/tomegcikkek/jatek-babu-1.jpg]] Játék bábu
+
+Esztergált fajáték bábu

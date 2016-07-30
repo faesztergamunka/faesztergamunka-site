@@ -23,9 +23,7 @@
       %header#header
         .inner
           / Logo
-          %a.logo{:href => "index.html"}
-            %span.symbol
-              %img{:alt => "", :src => "/images/logo.svg"}/
+          %a.logo{:href => "/"}
             %span.title= data.site.logotitle
           / Nav
           %nav
@@ -35,18 +33,16 @@
 
       / Menu
       %nav#menu
-        %h2 Menu
+        %h4
+          %a{:href => "#{data.site.url}"}= data.site.urltext
         %ul
           %li
-            %a{:href => "/"} Home
+            %a{:href => "/"} Kezdőlap
           %li
-            %a{:href => "generic.html"} Ipsum veroeros
-          %li
-            %a{:href => "generic.html"} Tempus etiam
-          %li
-            %a{:href => "generic.html"} Consequat dolor
-          %li
-            %a{:href => "elements.html"} Elements
+            %a{:href => "/kapcsolat"} Kapcsolat
+          - sitemap.resources.select{|page| page.data.tags && page.data.tags.include?('page')}.sort_by{|n| n.data.sort_weight || 100}.each do |page|
+            %li
+              %a{:href => "#{page.url}"}= page.data.title
 
       / Main
       #main
@@ -57,46 +53,20 @@
       %footer#footer
         .inner
           %section
-            %h2 Get in touch
-            %form{:action => "#", :method => "post"}
-              .field.half.first
-                %input#name{:name => "name", :placeholder => "Name", :type => "text"}/
-              .field.half
-                %input#email{:name => "email", :placeholder => "Email", :type => "email"}/
-              .field
-                %textarea#message{:name => "message", :placeholder => "Message"}
-              %ul.actions
-                %li
-                  %input.special{:type => "submit", :value => "Send"}/
-          %section
-            %h2 Follow
-            %ul.icons
-              %li
-                %a.icon.style2.fa-twitter{:href => "#"}
-                  %span.label Twitter
-              %li
-                %a.icon.style2.fa-facebook{:href => "#"}
-                  %span.label Facebook
-              %li
-                %a.icon.style2.fa-instagram{:href => "#"}
-                  %span.label Instagram
-              %li
-                %a.icon.style2.fa-dribbble{:href => "#"}
-                  %span.label Dribbble
-              %li
-                %a.icon.style2.fa-github{:href => "#"}
-                  %span.label GitHub
-              %li
-                %a.icon.style2.fa-500px{:href => "#"}
-                  %span.label 500px
-              %li
-                %a.icon.style2.fa-phone{:href => "#"}
-                  %span.label Phone
-              %li
-                %a.icon.style2.fa-envelope-o{:href => "#"}
-                  %span.label Email
+            %h2{:style => "text-decoration: underline;"} Kapcsolat
+            %div{:itemscope => "", :itemtype => "http://schema.org/LocalBusiness"}
+              %h2{:itemprop => "name"}
+                = data.contact.name
+              %h3{:itemprop => "address"}
+                = data.contact.address
+              %a.button.special.icon.fa-phone{:itemprop => "telephone", :href => "tel:#{data.contact.phone_href}"}
+                = data.contact.phone_text
+              %br
+              %a.button.icon.fa-envelope{:itemprop => "email", :href => "mailto:#{data.contact.email}"}
+                = data.contact.email
           %ul.copyright
-            %li © Untitled. All rights reserved
+            %li
+              = "© #{data.site.logotitle} - Minden jog fenntartva."
             %li
               Design:
               %a{:href => "http://html5up.net"} HTML5 UP
@@ -104,6 +74,9 @@
     = javascript_include_tag 'jquery.min.js'
     = javascript_include_tag 'skel.min.js'
     = javascript_include_tag 'util.js'
+    = javascript_include_tag 'perfundo.min.js'
+    :javascript
+      var myLightbox = new perfundo('.perfundo');
     /[if lte IE 8]
       = javascript_include_tag 'respond.min.js'
     = javascript_include_tag 'main'

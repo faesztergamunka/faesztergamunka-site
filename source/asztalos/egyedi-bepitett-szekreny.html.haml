@@ -1,0 +1,15 @@
+---
+title: Egyedi Beépített Szekrény
+tags: [ page, ]
+thumbnail: "/images/szekreny.jpg"
+thumbnail_alt_text: Egyedi Beépített Szekrény
+summary: Egyedi Beépített Szekrény
+sort_weight: 4
+---
+
+%ul
+  - data.termekek.szekreny.each do |item|
+    %li
+      %h4= item.title
+      %p= item.description
+      %p= item.image
