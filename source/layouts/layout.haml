@@ -71,9 +71,13 @@
     = javascript_include_tag 'jquery.min.js'
     = javascript_include_tag 'skel.min.js'
     = javascript_include_tag 'util.js'
-    = javascript_include_tag 'perfundo.min.js'
+    = javascript_include_tag 'jquery.magnific-popup.min.js'
     :javascript
-      var myLightbox = new perfundo('.perfundo');
+      $('.image-link').magnificPopup({
+      type: 'image',
+      removalDelay: 500,
+      mainClass: 'mfp-fade'
+      });
     /[if lte IE 8]
       = javascript_include_tag 'respond.min.js'
     = javascript_include_tag 'main'
