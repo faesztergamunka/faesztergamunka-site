@@ -2,5 +2,5 @@
   - products.each_with_index do |item, idx|
     %article{:class => "12u(small) 6u(large) 4u"}
       %a.image-link{:href => "#{item.image}"}
-        %div.image{:style => "width: 300px; height: 300px; overflow: hidden; background-image: url(#{item.image_small}); background-position: center; background-size: 300px;"}
-        %p{:style => "height: 4em;"}= item.description
+        %div.image{:style => "background-image: url(#{item.image_small});"}
+        %p.caption= item.description
