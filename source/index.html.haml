@@ -1,14 +1,16 @@
-%header
-  %div.row
-    %div.1u
-      %img{:src => "/images/oszlop_w75.jpg", width: 75}/
-    %div.11u
-      %h1 Asztalos és esztergált faipari termékek nagy darabszámú sorozatgyártása
-      %p Cégünk egyedi megrendelésre tervezett faesztergályos termékek gyártásával foglalkozik.
-      %h3 Árajánlat | Információ
-      = partial "contact", :locals => { :hide_name => true, :hide_address => true }
+%header.row
+  %div{:class => "not-xsmall 2u(xlarge) 1u"}
+    %img.not-small{:src => "/images/oszlop_w75.jpg", width: 75}/
+    %img.only-small{:src => "/images/oszlop_w75.jpg", width: 40}/
+  %div{:class => "12u(xsmall) 10u(xlarge) 11u"}
+    %h1 Asztalos és esztergált faipari termékek nagy darabszámú sorozatgyártása
+    %p Cégünk egyedi megrendelésre tervezett faesztergályos termékek gyártásával foglalkozik.
+    %h3 Árajánlat | Információ
+    = partial "contact", :locals => { :hide_name => true, :hide_address => true }
 
-%section.tiles
+%div{style: "clear:both;"}
+
+%section.tiles{:style => "margin-top: 1em;"}
   - sitemap.resources.select{|page| page.data.tags && page.data.tags.include?('page')}.sort_by{|n| n.data.sort_weight || 100}.each do |page|
     %article.style1
       %span.image

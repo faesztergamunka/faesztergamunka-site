@@ -55,12 +55,9 @@
         .inner.row
 
           - unless (defined? current_page.data.footer_hide_contacts) && current_page.data.footer_hide_contacts
-            %section.6u
+            %section.12u
               %h2{:style => "text-decoration: underline;"} Kapcsolat
               = partial "contact"
-
-            //%section.6u
-            //  %p TODO map
 
           %ul.copyright.12u
             %li

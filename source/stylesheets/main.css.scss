@@ -42,6 +42,24 @@
 		)
 	));
 
+  .not-xsmall {
+      @media screen and (max-width: 480px) {
+          display: none;
+      }
+  }
+
+  .not-small {
+      @media screen and (max-width: 736px) {
+          display: none;
+      }
+  }
+
+  .only-small {
+      @media screen and (min-width: 736px) {
+          display: none;
+      }
+  }
+
 // Base.
 
 	@import 'base/page';
