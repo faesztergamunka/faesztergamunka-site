@@ -1,0 +1,23 @@
+<div itemscope="" itemtype="http://schema.org/LocalBusiness">
+    <% unless (defined? hide_name) && hide_name %>
+        <h2 itemprop="name">
+            <%= data.contact.name %>
+        </h2>
+    <% end %>
+    <% unless (defined? hide_address) && hide_address %>
+        <h3 itemprop="address">
+            <%= data.contact.address %>
+        </h3>
+    <% end %>
+    <% unless (defined? hide_phone) && hide_phone %>
+        <a class="button special icon fa-phone" href="tel:<%= data.contact.phone_href %>" itemprop="telephone">
+            <%= data.contact.phone_text %>
+        </a>
+        <br>
+    <% end %>
+    <% unless (defined? hide_email) && hide_email %>
+        <a class="button icon fa-envelope" href="mailto:<%= data.contact.email %>" itemprop="email">
+            <%= data.contact.email %>
+        </a>
+    <% end %>
+</div>

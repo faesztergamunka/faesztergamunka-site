@@ -7,9 +7,8 @@ summary: Fajáték Alkatrészek
 sort_weight: 4
 ---
 
-%ul
-  - data.termekek.fajatek.each do |item|
-    %li
-      %h4= item.title
-      %p= item.description
-      %p= item.image
+%h1= current_page.data.title
+
+- products = data.termekek.fajatek
+= partial "product-gallery", :locals => { :products => products }
+

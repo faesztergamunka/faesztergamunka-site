@@ -51,20 +51,17 @@
 
       / Footer
       %footer#footer
-        .inner
-          %section
+        .inner.row
+
+          %section.6u
             %h2{:style => "text-decoration: underline;"} Kapcsolat
-            %div{:itemscope => "", :itemtype => "http://schema.org/LocalBusiness"}
-              %h2{:itemprop => "name"}
-                = data.contact.name
-              %h3{:itemprop => "address"}
-                = data.contact.address
-              %a.button.special.icon.fa-phone{:itemprop => "telephone", :href => "tel:#{data.contact.phone_href}"}
-                = data.contact.phone_text
-              %br
-              %a.button.icon.fa-envelope{:itemprop => "email", :href => "mailto:#{data.contact.email}"}
-                = data.contact.email
-          %ul.copyright
+            = partial "contact"
+
+          %section.6u
+            %p Asztalos és esztergált faipari termékek nagy darabszámú sorozatgyártása
+            // %p Faesztergálás nagy darabszámban. Faesztergályos munkák és termékek. Nagy darabszámú faesztergályos és más faipari termékek sorozatgyártása.
+
+          %ul.copyright.12u
             %li
               = "© #{data.site.logotitle} - Minden jog fenntartva."
             %li

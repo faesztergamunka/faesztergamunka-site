@@ -9,15 +9,5 @@ sort_weight: 2
 
 %h1 Esztergált lépcsőkorlátok és oszlopok
 
-%section.row
-  - data.termekek.lepcsok.each_with_index do |item, idx|
-    %article.perfundo{:class => "12u(small) 6u(large) 4u"}
-      %a.perfundo__link{:href => "#perfundo-single_#{idx}"}
-        %div.image{:style => "width: 300px; height: 300px; overflow: hidden; background-image: url(#{item.image_small}); background-position: center; background-size: 300px;"}
-        %p{:style => "height: 4em;"}= item.description
-      %div.perfundo__overlay.fadeInLeft{:id => "#perfundo-single_#{idx}"}
-        %figure.perfundo__content.perfundo__figure
-          %img{:alt => "#{item.title}", :src =>  "#{item.image_small}"}/
-          .perfundo__image{:style => "width: 800px; padding-top: 56.25%; background-image: url(#{item.image});"}
-          %figcaption.perfundo__figcaption= item.description
-        %a.perfundo__close.perfundo__control{:href => "#perfundo-untarget"} Bezár
+- products = data.termekek.lepcsok
+= partial "product-gallery", :locals => { :products => products }

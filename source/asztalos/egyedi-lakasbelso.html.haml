@@ -7,9 +7,8 @@ summary: Egyedi Lakásbelső
 sort_weight: 4
 ---
 
-%ul
-  - data.termekek.lakasbelso.each do |item|
-    %li
-      %h4= item.title
-      %p= item.description
-      %p= item.image
+%h1= current_page.data.title
+
+- products = data.termekek.lakasbelso
+= partial "product-gallery", :locals => { :products => products }
+
