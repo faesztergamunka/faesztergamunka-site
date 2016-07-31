@@ -54,13 +54,13 @@
       %footer#footer
         .inner.row
 
-          %section.6u
-            %h2{:style => "text-decoration: underline;"} Kapcsolat
-            = partial "contact"
+          - unless (defined? current_page.data.footer_hide_contacts) && current_page.data.footer_hide_contacts
+            %section.6u
+              %h2{:style => "text-decoration: underline;"} Kapcsolat
+              = partial "contact"
 
-          %section.6u
-            %p Asztalos és esztergált faipari termékek nagy darabszámú sorozatgyártása
-            // %p Faesztergálás nagy darabszámban. Faesztergályos munkák és termékek. Nagy darabszámú faesztergályos és más faipari termékek sorozatgyártása.
+            //%section.6u
+            //  %p TODO map
 
           %ul.copyright.12u
             %li
