@@ -1,7 +1,7 @@
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  //display: flex;
+  //flex-wrap: wrap;
+  //justify-content: space-between;
 }
 
 .card {
@@ -16,7 +16,8 @@
   $card-border: 1px solid $card-border-color;
   $card-background: lighten($card-border-color, 10%);
   $card-header-background: $card-background;
-  $card-margin: 1em;
+  //$card-margin: 1em;
+  $card-margin: 0pt;
   $card-image-hover-opacity: 0.7;
   $card-image-hover-color: #F8F2B4;
 
@@ -25,14 +26,15 @@
   border-radius: $base-border-radius;
   box-shadow: 0 2px 4px darken($base-background-color, 10%);
   cursor: pointer;
-  flex-basis: 15em;
-  flex-grow: 1;
+  //flex-basis: 15em;
+  //flex-grow: 1;
   margin: 0 $card-margin $base-spacing $card-margin;
   position: relative;
   transition: all 0.2s ease-in-out;
 
   .card-image {
-    background-color: $card-image-hover-color;
+    //background-color: $card-image-hover-color;
+    margin: 0 auto;
     width: 300px;
     height: 300px;
     max-height: 300px;
@@ -46,6 +48,7 @@
   }
 
   .card-header {
+    margin: 0 auto;
     background-color: $card-header-background;
     border-bottom: $card-border;
     border-radius: $base-border-radius $base-border-radius 0 0;
@@ -56,6 +59,7 @@
   }
 
   .card-copy {
+      margin: 0 auto;
       width: 300px;
       font-size: 0.9em;
       line-height: 1.5em;

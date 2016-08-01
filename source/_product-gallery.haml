@@ -1,7 +1,8 @@
 %section.cards.row
   - products.each_with_index do |item, idx|
-    %article.card.mag-image{:class => "", "data-mfp-src" => "#{item.image}"}
-      .card-image{:style => "background-image: url(#{item.image_small});"}
-      .card-header
-      .card-copy
-        %p= item.description
+    %div{:class => "12u(small) 6u(large) 4u"}
+      %article.card.mag-image{"data-mfp-src" => "#{item.image}"}
+        .card-image{:style => "background-image: url(#{item.image_small});"}
+        .card-header
+        .card-copy
+          %p= item.description
