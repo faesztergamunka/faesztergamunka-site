@@ -449,12 +449,6 @@ img.mfp-img {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0; }
 
-/* line 1, _refills-card.scss */
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-
 /* line 7, _refills-card.scss */
 .card {
   background-color: #f6f6f6;
@@ -462,14 +456,12 @@ img.mfp-img {
   border-radius: 3px;
   box-shadow: 0 2px 4px #e6e6e6;
   cursor: pointer;
-  flex-basis: 15em;
-  flex-grow: 1;
-  margin: 0 1em 1.5em 1em;
+  margin: 0 0pt 1.5em 0pt;
   position: relative;
   transition: all 0.2s ease-in-out; }
-  /* line 34, _refills-card.scss */
+  /* line 35, _refills-card.scss */
   .card .card-image {
-    background-color: #F8F2B4;
+    margin: 0 auto;
     width: 300px;
     height: 300px;
     max-height: 300px;
@@ -485,8 +477,9 @@ img.mfp-img {
     border-top-right-radius: 3px;
     opacity: 1;
     transition: all 0.2s ease-in-out; }
-  /* line 48, _refills-card.scss */
+  /* line 50, _refills-card.scss */
   .card .card-header {
+    margin: 0 auto;
     background-color: #f6f6f6;
     border-bottom: 1px solid gainsboro;
     border-radius: 3px 3px 0 0;
@@ -494,25 +487,26 @@ img.mfp-img {
     line-height: 1.5em;
     padding: 0.5em 0.75em;
     transition: all 0.2s ease-in-out; }
-  /* line 58, _refills-card.scss */
+  /* line 61, _refills-card.scss */
   .card .card-copy {
+    margin: 0 auto;
     width: 300px;
     font-size: 0.9em;
     line-height: 1.5em;
     padding: 0.75em 0.75em; }
-    /* line 64, _refills-card.scss */
+    /* line 68, _refills-card.scss */
     .card .card-copy p {
       margin: 0 0 0.75em; }
-  /* line 69, _refills-card.scss */
+  /* line 73, _refills-card.scss */
   .card:focus, .card:hover {
     cursor: pointer; }
-    /* line 73, _refills-card.scss */
+    /* line 77, _refills-card.scss */
     .card:focus .card-image, .card:hover .card-image {
       opacity: 0.7; }
-  /* line 78, _refills-card.scss */
+  /* line 82, _refills-card.scss */
   .card:active {
     background-color: #f6f6f6; }
-    /* line 81, _refills-card.scss */
+    /* line 85, _refills-card.scss */
     .card:active .card-header {
       background-color: #f6f6f6; }
 
