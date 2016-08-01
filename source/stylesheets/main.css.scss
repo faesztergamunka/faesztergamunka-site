@@ -7,6 +7,9 @@
 @import 'font-awesome.min.css';
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900');
 
+@import 'compass/css3/border-radius';
+@import 'refills-card';
+
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -82,22 +85,5 @@
   .only-small {
       @media screen and (min-width: 736px) {
           display: none;
-      }
-  }
-
-  .image-link {
-
-      .image {
-          width: 300px;
-          height: 300px;
-          overflow: hidden;
-          background-position: center;
-          background-size: 300px;
-          background-repeat: no-repeat;
-      }
-
-      .caption {
-          width: 300px;
-          height: 4em;
       }
   }

@@ -1,6 +1,8 @@
-%section.row
+%section.cards.row
   - products.each_with_index do |item, idx|
-    %article{:class => "12u(small) 6u(large) 4u"}
-      %a.image-link{:href => "#{item.image}"}
-        %div.image{:style => "background-image: url(#{item.image_small});"}
-        %p.caption= item.description
+    /%a.image-link{:href => "#{item.image}"}
+    %article.card{:class => ""}
+      .card-image{:style => "background-image: url(#{item.image_small});"}
+      .card-header
+      .card-copy
+        %p= item.description
