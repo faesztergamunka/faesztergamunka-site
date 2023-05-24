@@ -16,6 +16,15 @@
       = stylesheet_link_tag 'ie9'
     /[if lte IE 8]
       = stylesheet_link_tag 'ie8'
+
+    %script{:async => "1", :src => "https://www.googletagmanager.com/gtag/js?id=G-HVW5TKB36T"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HVW5TKB36T');
+
   %body
     / Wrapper
     #wrapper
@@ -82,13 +91,4 @@
     /[if lte IE 8]
       = javascript_include_tag 'respond.min.js'
     = javascript_include_tag 'main'
-
-    :javascript
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-3557338-10', 'auto');
-      ga('send', 'pageview');
 

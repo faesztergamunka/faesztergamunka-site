@@ -10,6 +10,8 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 gem 'compass', '~> 1.0.3'
 
+gem 'json', '~> 1.7'
+
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
