@@ -1,8 +1,7 @@
+# -*- org-image-actual-width: 300; mode: Org; eval: (progn (org-redisplay-inline-images)) -*-
 #+TITLE: Termékek
 
-(setq org-image-actual-width 300)
-
-'<,'>s/^[[][[].\/source\/\([^]]+\)[]][]] *\(.*\)\n\n\(.*\)/  - title: "\2"\n  - description: "\3"\n  - image: "\1"/g
+: '<,'>s/^[[][[]..\/source\/\([^]]+\)[]][]] *\(.*\)\n\n\(.*\)/  - title: "\2"\n  - description: "\3"\n  - image: "\1"/g
 
 * Fa asztallábak és bútorlábak
 

@@ -53,6 +53,8 @@
           - sitemap.resources.select{|page| page.data.tags && page.data.tags.include?('page')}.sort_by{|n| n.data.sort_weight || 100}.each do |page|
             %li
               %a{:href => "#{page.url}"}= page.data.title
+          %li
+            %a{:href => "/palyazatok"} Pályázatok
 
       / Main
       #main
