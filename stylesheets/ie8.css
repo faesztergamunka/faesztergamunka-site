@@ -17,7 +17,7 @@ input[type="reset"],
 input[type="button"],
 button,
 .button {
-  border: solid 2px #585858 !important; }
+  border: solid 2px #1a1a1a !important; }
   /* line 31, ie8.css.scss */
   input[type="submit"]:hover,
   input[type="reset"]:hover,
